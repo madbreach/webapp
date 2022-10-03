@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang = "en">
+{% load static %}
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <link rel="stylesheet" type="text/css" href="{% static 'UtahPrideCenter/frontend.css' %}">
+    <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans&display=swap" rel="stylesheet">
+    <title>Utah Pride Center Check In</title>
+</head>
+
+<body>
+  <div class="center-content">
+    <div class="banner">
+        <a href="https://utahpridecenter.org/youth-programs/" target="_blank">
+		    <img class="banner-img" src={% static 'UtahPrideCenter/logopink.png' %}>
+         </a>
+    </div>
+
+    <h2 id="welcome">Check-In</h2>
+    <img class="r_bar" src={% static 'UtahPrideCenter/r_bar.jpg' %}>
+
+    <div class="pink-box">
+		<form method="POST" action="{% url 'Confirmation' %}">
+            <p>What group are you joining today?</p>
+            <select id="programs" name="section">
+                {% for user_section in user_sections %}
+                    <option value="{{ user_section.section.id }}">{{ user_section.section.name }}</option>
+                {% endfor %}
+            </select>
+            {% csrf_token %}
+            <input type="hidden" name="token" value="{{ join_link }}">
+            <a href="/?t={{ join_link }}" class="home half-button">Go Back</a>
+            <input class="submit half-button" type="submit" value="Check-In">
+        </form>
+    </div>
+
+  </div>
+</body>
+</html>

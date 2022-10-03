@@ -1,0 +1,226 @@
+body{
+align-items: center;
+justify-content: center;
+display: flex;
+font-family: 'Josefin Sans', sans-serif;
+background-image: url("gradient.jpg");
+	background-position:center;
+
+}
+
+#welcome{
+text-align: center;
+padding-top: 10px;
+color: white;
+margin-bottom: 0px;
+}
+
+.r_bar{
+width: 150px;
+height: 5px;
+margin-left: 105px;
+margin-top: 15px;
+
+}
+
+#pronouns{
+	border-color:#d38bc4;
+	border-width: 3px;
+}
+
+#programs{
+	border-color:#d38bc4;
+	border-width: 3px;
+}
+
+.checkin-button{
+margin-top: 150px;
+text-align: center;
+}
+
+.half-button{
+width: 115px;
+box-sizing: border-box;
+}
+
+.whole-button{
+width: 230px;
+box-sizing: border-box;
+
+}
+
+#zoom{
+
+	margin-bottom: 0px;
+}
+.main-content{
+text-align: center;
+
+
+
+}
+.supporting-text{
+text-align: center;
+
+
+
+}
+.suppt{
+  margin-left: 125px;
+}
+.welcome{
+  margin-top: 250px;
+	margin-bottom: -25px;
+
+}
+.pink-box{
+  margin: 23px;
+  /* margin-top:50px; */
+  border-radius: 10px;
+ background: #fff;
+ padding: 20px;
+ padding-bottom: 20px;
+ width: 270px;
+ height: auto;
+ text-align: center;
+}
+
+.button{
+    background-color: #d38bc4;
+    border: none;
+    color: #000;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    width: 175px;
+    border-radius: 5px;
+   box-shadow: 0 1px 1px rgba(0,0,0,0.3),
+              0 2px 2px rgba(0,0,0,0.3),
+              0 2px 2px rgba(0,0,0,0.3),
+               0 2px 4px rgba(0,0,0,0.05),
+              0 4px 8px rgba(0,0,0,0.05);
+
+}
+.url{
+
+    background-color: #DCDCDC;
+	border-color: black;
+    color: black;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    width: 175px;
+    border-radius: 5px;
+
+
+}
+.inputbox{
+
+    background-color: #fff;
+	border-color: #d38bc4;
+	border-width: 3px;
+    color: black;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    width: 175px;
+    border-radius: 5px;
+
+
+}
+
+input{
+	font-family: 'Josefin Sans', sans-serif;
+
+}
+
+select{
+	-webkit-appearance: none;
+    -moz-appearance: none;
+	font-family: 'Josefin Sans', sans-serif;
+	 background-color: #FFF;
+    color: black;
+    text-align: center;
+	    padding: 15px 32px;
+
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    width:240px;
+    border-radius: 5px;
+
+	background-image: url('data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAh0lEQVQ4T93TMQrCUAzG8V9x8QziiYSuXdzFC7h4AcELOPQAdXYovZCHEATlgQV5GFTe1ozJlz/kS1IpjKqw3wQBVyy++JI0y1GTe7DCBbMAckeNIQKk/BanALBB+16LtnDELoMcsM/BESDlz2heDR3WePwKSLo5eoxz3z6NNcFD+vu3ij14Aqz/DxGbKB7CAAAAAElFTkSuQmCC');
+    background-repeat: no-repeat;
+    background-position:200px center;
+
+}
+
+form{
+
+}
+
+option{
+
+}
+
+.submit {
+    background-color: #8b2c93;
+    border: none;
+    color: white;
+    padding: 15px 15px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 20px 2px;
+    cursor: pointer;
+    border-radius: 5px;
+    box-shadow: 0 1px 1px rgba(0, 0, 0, 0.3),
+    0 2px 2px rgba(0, 0, 0, 0.3),
+    0 2px 2px rgba(0, 0, 0, 0.3),
+    0 2px 4px rgba(0, 0, 0, 0.05),
+    0 4px 8px rgba(0, 0, 0, 0.05);
+}
+
+.home{
+
+	background-color: #d38bc4;
+    border: none;
+    color: black;
+    padding: 15px 15px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 20px 2px;
+    cursor: pointer;
+    border-radius: 5px;
+	box-shadow: 0 1px 1px rgba(0,0,0,0.3),
+              0 2px 2px rgba(0,0,0,0.3),
+              0 2px 2px rgba(0,0,0,0.3),
+               0 2px 4px rgba(0,0,0,0.05),
+              0 4px 8px rgba(0,0,0,0.05);
+}
+.center-content{
+	background-color: #8B2C93;
+	border-radius: 30px;
+	margin-top: 100px;
+
+}
+.banner-img{
+	margin-top: -80px;
+}

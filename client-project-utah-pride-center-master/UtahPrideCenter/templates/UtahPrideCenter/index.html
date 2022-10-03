@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang = "en">
+{% load static %}
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <link rel="stylesheet" type="text/css" href="{% static 'UtahPrideCenter/frontend.css' %}">
+    <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans&display=swap" rel="stylesheet">
+    <title> Utah Pride Center Youth & Family Programs</title>
+</head>
+
+<body>
+  <div class="center-content">
+    <div class="banner">
+		<a href="https://utahpridecenter.org/youth-programs/" target="_blank">
+		    <img class="banner-img" src={% static 'UtahPrideCenter/logopink.png' %}>
+        </a>
+    </div>
+
+    <h2 id="welcome">Welcome, {% if display_name%}{{ display_name }}{% else %}{{ first_name }}{% endif %}</h2>
+    <img class="r_bar" src={% static 'UtahPrideCenter/r_bar.jpg' %}>
+
+
+    <div class="pink-box">
+      <p>What would you like to do?</p>
+      <a href="{% url 'CheckIn'%}?t={{ join_token }}" class="button">Check-In for a Meeting</a>
+      <a href="{% url 'EditInfo'%}?t={{ join_token }}" class="button">Edit My Information</a>
+    </div>
+  </div>
+</body>
