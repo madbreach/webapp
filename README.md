@@ -15,3 +15,5 @@ so that the user can check in for a specific meeting and access their profile in
 
 I designed the look of this app and the front end code in a way that operates both on a computer and on a phone. 
 Most of the design elements were in coordination with the colors and functions of the Utah Pride Center Youth and Family Programs design.
+
+This program helped me learn how to effectively work in a group and collaborate with a client. There were many challenges trying to make major design decisions amongst the 6 of us, but we were able to use effective communicatio skills and conflict resolution to find the best way to design software for our targeted audience (10-30ish years old).
